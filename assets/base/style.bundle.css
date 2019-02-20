@@ -7,7 +7,7 @@
 }
 
 .header-menu-top {
-    background-image: url(bg-header-menu-top.jpg);
+    /*background-image: url(bg-header-menu-top.jpg);*/
     background-repeat: repeat-x;
     background-position: top;
     background-color: #ececec;
@@ -45,7 +45,7 @@
 }
 
 .defaultTitle, #ProductByCategory h3 {
-    background-image: url(bg-menu-center.jpg);
+    /*background-image: url(bg-menu-center.jpg);*/
     background-position: center top;
     background-repeat: repeat-x;
     display: block;
@@ -53,7 +53,4 @@
     border: solid 1px #eaeaea;
     border-bottom: none;
     border-radius: 6px 6px 0px 0px;
-}
-#main-content-left {
-    padding: 0px;
 }
