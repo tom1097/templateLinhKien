@@ -1,0 +1,59 @@
+.search-input-icon input {
+	width: 80% !important
+}
+
+.search-input-icon span {
+	width: 20% !important
+}
+
+.header-menu-top {
+    background-image: url(bg-header-menu-top.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-color: #ececec;
+    border-radius: 0px 0px 7px 7px;
+    border: solid 1px #f2f2f2;
+    padding: 8px;
+    line-height: 26px;
+    color: #353535;
+    margin-bottom: 10px;
+}
+
+.DefaultModule {
+    margin-bottom: 7px;
+}
+
+.left .defaultTitle, .right .defaultTitle {
+    background-image: none;
+    background-position: center top;
+    background-repeat: repeat-x;
+    background-color: #014590;
+    border: none;
+    border-radius: 6px 6px 0 0;
+    padding: 11px 0px;
+}
+
+.defaultTitle {
+    color: #004481;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.defaultTitle {
+    border-bottom: solid 2px #1549a4;
+}
+
+.defaultTitle, #ProductByCategory h3 {
+    background-image: url(bg-menu-center.jpg);
+    background-position: center top;
+    background-repeat: repeat-x;
+    display: block;
+    padding: 6px 0;
+    border: solid 1px #eaeaea;
+    border-bottom: none;
+    border-radius: 6px 6px 0px 0px;
+}
+#main-content-left {
+    padding: 0px;
+}
