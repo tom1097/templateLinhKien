@@ -1,4 +1,7 @@
-
+.reset_tomiot{
+	padding: 0;
+	margin:0;
+}
 .price_tomiot{
 	color: red;
 }
@@ -61,15 +64,16 @@
 
 /*css tomiot css tomiot css */
 .thugontext_tomiot{
-    text-transform: lowercase;
-    height: 100px;
+    height: 80px;
     overflow: hidden;
+    line-height: 20px;
     text-overflow: ellipsis;
     white-space: normal;
 }
 
 .no_border_tomiot{
 	border: 0;
+
 }
 
 .noidung_tomiot{
@@ -95,6 +99,30 @@
 .hinhAnhSP_tomiot{
 	width: 100%;
 }
+.padding_danhsachsp_tomiot{
+	padding: 20px;
+	margin: 10px 0;
+}
+.box_tomiot{
+	transition: box-shadow .8s;
+  
+  	/*float: left;*/
+}
+.box_tomiot:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  border: 2px solid #ccc;
+}
+
+.box_tomiot h5:hover{
+	text-transform: lowercase;
+  	color:blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+.box_tomiot button:hover{
+    font-weight: bold;
+}
+
 
 .mota_hdsd_tomiot{
 	margin: 10px 0; 
@@ -111,7 +139,22 @@
 .padding1020_tomiot{
 	padding:10px 20px;
 }
+.pull-right_tomiot{
+	float:right;
+}
+.no_margin_tomiot{
+	margin:0;
+}
 
+.text_product_tomiot{
+	color:green;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.border_05_tomiot{
+	border: 0.5px solid #ccc;
+}
 .title_tomiot{
 	color: #004481;
     font-family: arial;
@@ -119,11 +162,13 @@
     font-weight: bold;
     border-bottom: solid 2px #1549a4;
     background-color: #e9ecef9c;
-    display: block;
+    display: flex;
     padding: 10px 0 5px 10px;
     border: solid 1px #eaeaea;
     border-bottom: none;
     border-radius: 6px 6px 0px 0px;
+    margin-right: 0;
+    margin-left: 0;
 }
 .padding10_tomiot{
 	padding: 10px 0; 
