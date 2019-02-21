@@ -128,8 +128,16 @@
 									<input type="number" id="SoLuong_tomiot" min="1" maxlength="10" max="10000" value="1" name="" class="quantity-selector">
 								</div>	
 								<div class="col-md-12">
-									<button class="btn btn-info"><i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng</button>
+									<button onclick="launch_toast()"  class="btn btn-info"><i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng</button>
 								</div>
+								<!-- Toast -->
+								<div id="toast">
+									<div id="img">
+										<i class="fas fa-cart-arrow-down"></i>
+									</div>
+									<div id="desc">Đã thêm vào giỏ hàng</div>
+								</div>
+								<!-- Ket thuc Toast -->
 							</div>
 						</div>
 						<!-- Ket Thuc hien thi gia ban -->
