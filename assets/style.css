@@ -59,7 +59,7 @@
 
 /*--------------- ------ Ket thuc style Tab san pham--------------- ------ */
 
-/*css tomiot css tomiot */
+/*css tomiot css tomiot css */
 .thugontext_tomiot{
     text-transform: lowercase;
     height: 100px;
@@ -72,7 +72,8 @@
 	border: 0;
 }
 
-/*end css tomiot en*/
+
+/*end css tomiot css en*/
 
 
 
@@ -91,6 +92,11 @@
 .padding_10px_tomiot{
 	padding: 10px;
 }
+
+.padding1020_tomiot{
+	padding:10px 20px;
+}
+
 .title_tomiot{
 	color: #004481;
     font-family: arial;
