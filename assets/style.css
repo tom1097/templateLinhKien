@@ -83,8 +83,15 @@
 
 /*end css tomiot css en*/
 
-
-
+.hinhanhwidth100_tomiot{
+	width: 100%;
+	height:auto;
+}
+.content_baiviet_tomiot{
+	padding: 10px;
+	text-align: justify;
+	
+}
 .hinhAnhSP_tomiot{
 	width: 100%;
 }
