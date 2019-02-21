@@ -1,0 +1,98 @@
+.price_tomiot{
+	color: red;
+}
+
+#SoLuong_tomiot{
+	width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    float: left;
+}
+
+.SoLuongLabel_tomiot{
+	display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    float: left;
+}
+
+/*------------------- ------  Style cua Tab san pham ------------------*/
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+/*--------------- ------ Ket thuc style Tab san pham--------------- ------ */
+
+.hinhAnhSP_tomiot{
+	width: 100%;
+}
+
+.mota_hdsd_tomiot{
+	margin: 10px 0; 
+	
+}
+.border_tomiot{
+	border: 1px #cccccc61 solid;
+	
+}
+.padding_10px_tomiot{
+	padding: 10px;
+}
+.title_tomiot{
+	color: #004481;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: solid 2px #1549a4;
+    background-color: #e9ecef9c;
+    display: block;
+    padding: 10px 0 5px 10px;
+    border: solid 1px #eaeaea;
+    border-bottom: none;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.img_sp_lien_quan_tomiot{
+	width: 100%;
+	height: 120px;
+}
+.cangiua_tomiot{
+	text-align: center;
+}
+
+
+
+
