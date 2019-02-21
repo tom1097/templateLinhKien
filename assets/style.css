@@ -55,7 +55,26 @@
   border: 1px solid #ccc;
   border-top: none;
 }
+
+
 /*--------------- ------ Ket thuc style Tab san pham--------------- ------ */
+
+/*css tomiot css tomiot */
+.thugontext_tomiot{
+    text-transform: lowercase;
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.no_border_tomiot{
+	border: 0;
+}
+
+/*end css tomiot en*/
+
+
 
 .hinhAnhSP_tomiot{
 	width: 100%;
@@ -85,10 +104,19 @@
     border-bottom: none;
     border-radius: 6px 6px 0px 0px;
 }
+.padding10_tomiot{
+	padding: 10px 0; 
+	margin:0;
+}
+.sp_lien_quan_tomiot{
+	margin:20px 0;
+	padding: 0;
+}
 
 .img_sp_lien_quan_tomiot{
 	width: 100%;
 	height: 120px;
+
 }
 .cangiua_tomiot{
 	text-align: center;
