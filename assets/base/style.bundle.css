@@ -54,3 +54,116 @@
     border-bottom: none;
     border-radius: 6px 6px 0px 0px;
 }
+
+
+.nav-tabs .nav-item a:hover{
+    color: black !important;
+    background: #ffff;
+}
+
+.search-top div{
+    margin-top: 30px
+}
+
+.search-top div input{
+    border-radius: 20px 0 0 20px;
+}
+
+.search-top div span button{
+    border-radius: 0 20px 20px 0;
+}
+
+.pro-header {
+    color: #696969;
+    display: block;
+    float: left;
+    font-size: 11px;
+    padding-left: 30px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.phone-header a {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.phone-header span {
+    font-size: 18px;
+    color: #004688;
+    font-weight: bold;
+}
+
+#TopMenu {
+    float: right;
+    height: 26px;
+    padding: 0;
+    margin-bottom: 10px
+}
+
+#TopMenu ul {
+    float: left;
+    margin: 0;
+    margin-right: 10px;
+}
+
+#TopMenu li.CartLink.topMenu_Cart {
+    display: inherit;
+    background-image: url(/assets/img/header-cart.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+    height: 28px;
+    margin-right: 9px;
+    background-size: 100%;
+}
+
+#TopMenu li {
+    background-image: url(icon_top.gif);
+    background-position: left center;
+    background-repeat: no-repeat;
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+    display: none;
+}
+
+.menu-top div nav{
+    clear: both;
+    height: auto;
+    background: #014590;
+    background-repeat: repeat-x;
+    background-position: top;
+    border-radius: 6px 6px 0 0;
+}
+
+/*begin-footer*/
+.wrap-footer-bottom {
+    border-top: 1px solid #f0f0f0;
+    padding: 10px 0px 0px 0px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.wrap-footer-bottom img {
+    height: 70px;
+    margin: 0px auto;
+}
+
+.wrap-footer-bottom .center p {
+    text-align: center;
+    line-height: 15px;
+}
+
+img{
+    display: block;
+}
+
+.wrap-footer-bottom div div p{
+    font-size: 10px
+}
+/*end-footer*/
