@@ -208,6 +208,19 @@ hr {
     position: relative;
     cursor: pointer;
 }
+
+.header-menu-top {
+    background-image: url(../img/bg-header-menu-top.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-color: #ececec;
+    border-radius: 0px 0px 7px 7px;
+    border: solid 1px #f2f2f2;
+    padding: 8px;
+    line-height: 26px;
+    color: #353535;
+    margin-bottom: 10px;
+}
 .marquee-sibling {
     padding: 0;
     background: #fff;
@@ -691,7 +704,7 @@ hr {
 .defaultTitle,
 #ProductByCategory h3
 {
-    background-image: url("bg-menu-center.jpg");
+    background-image: url("../img/bg-menu-center.jpg");
     background-position: center top;
     background-repeat: repeat-x;
     display: block;
@@ -843,7 +856,7 @@ hr {
 }
 .cate-menu ul ul li.level1 a:link span, .cate-menu ul ul li.level1 a:visited span
 {
-    background: url("list_style1.gif") no-repeat scroll 10px 11px rgba(0, 0, 0, 0);
+    background: url("../img/list_style1.gif") no-repeat scroll 10px 11px rgba(0, 0, 0, 0);
     color: green;
     display: block;
     font-size: 13px;
@@ -852,7 +865,7 @@ hr {
 }
 .cate-menu ul ul ul li.level2 a:link span, .cate-menu ul ul ul li.level2 a:visited span
 {
-    background: url("list_style1.gif") no-repeat scroll 32px 10px transparent;
+    background: url("../img/list_style1.gif") no-repeat scroll 32px 10px transparent;
     color: #3d3d3d;
     display: block;
     font-size: 12px;
@@ -873,7 +886,7 @@ hr {
 .cate-menu ul ul ul li:hover a:link, .cate-menu ul ul ul li:hover a:visited
 {
     color: #345bab;
-    background-image:url("list_style.gif");
+    background-image:url("../img/list_style.gif");
     background-repeat:no-repeat;
     background-position:left;
     margin-left:-6px;
@@ -881,7 +894,7 @@ hr {
 }
 .sub-menu-left .level1.active{
     color: #345bab;
-    background-image:url("list_style.gif");
+    background-image:url("../img/list_style.gif");
     background-repeat:no-repeat;
     background-position:left;
     margin-left:-6px;
@@ -1338,7 +1351,7 @@ div.newsLastest div.newsLastest_Item
     width: 174px;
     text-align:center;
     height:100% !important;
-    background-image:url("boder-sp.jpg");
+    background-image:url("../img/boder-sp.jpg");
     background-repeat:no-repeat;
     background-position:right;
     height: 300px;
@@ -2417,7 +2430,7 @@ em.ProductPrice {
 }
 #CartHeader
 {
-    background-image: url("bg-menu-center.jpg");
+    background-image: url("../img/bg-menu-center.jpg");
     background-position: center top;
     background-repeat: repeat-x;
     display: block;
@@ -4198,4 +4211,8 @@ height: auto;
 
 img{
     display: block;
+}
+
+.main-wrap-right{
+    float: right ;
 }
