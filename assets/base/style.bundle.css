@@ -190,7 +190,6 @@ hr {
     float: right;
     font-size: 12px;
     padding-bottom: 10px;
-    width: 197px;
 }
 .bottom
 {
@@ -4146,8 +4145,8 @@ ul li.level0.open ul.sub-menu-left{
     width: 100%;
     margin-top: 15px;
 }
-.wrap-footer-bottom img {
-    height: 70px;
+.wrap-footer-bottom .img-footer {
+    height: 70px !important;
     margin: 0px auto;
 }
 .wrap-footer-bottom .center {
