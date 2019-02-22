@@ -296,6 +296,14 @@ hr {
 .seach-header{
     padding-left: 0 !important;
 }
+
+.search-top div{
+    margin-top: 30px
+}
+
+.border-radius-search-button{
+    border-radius:0 15px 15px 0;
+}
 /*--------------------------------------------------------------------------------------------*/
 /*Top Menu*/
 .bg_topmenu 
@@ -410,14 +418,14 @@ hr {
     background-position: right center;
     background-repeat: no-repeat;
     float: right;
-    height: 44px;
+    min-width: 300px;
     margin-top: 25px;
     padding-right: 45px !important;
 }
 .seach-header
 {
     float: left;
-    width: 436px;
+    width: 100%;
 }
 .phone-header span
 {
@@ -1348,7 +1356,6 @@ div.newsLastest div.newsLastest_Item
     overflow: hidden;
     padding: 9px;
     position: relative;
-    width: 174px;
     text-align:center;
     height:100% !important;
     background-image:url("../img/boder-sp.jpg");
@@ -2316,7 +2323,7 @@ em.ProductPrice {
 .bg-footer
 {
     width:100%;
-    background-image:url("bg-footer.jpg");
+    background-image:url("../img/bg-footer.jpg");
     background-repeat:repeat-x;
     background-position:top;
     background-color:#fff;
@@ -4215,4 +4222,9 @@ img{
 
 .main-wrap-right{
     float: right ;
+    padding-right: 0px
+}
+
+.img-fluid{
+    height: 120px !important
 }
