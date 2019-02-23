@@ -3097,7 +3097,15 @@ a.compare
     }
 }
 @media screen and (max-width: 768px){
-
+    hr {        
+        width: 70%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        margin-left: auto;
+        margin-right: auto;
+    }
     .main-wrap-right{
         float: right ;
         padding: 0px !important;
@@ -4276,4 +4284,8 @@ img{
 
 ul.navbar-nav{
     margin-left: 0px
+}
+
+.menu-dropdown_h{
+    display: none;
 }

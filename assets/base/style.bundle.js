@@ -6,4 +6,8 @@ $(document).ready(function(){
 	$('.dropdown_mobile').click(function(){
 		$(this).children('.dropdown-menu_dray').slideToggle();
 	});
+
+	$('.click-menu-dropdown_h').click(function(){
+		$(this).next('.menu-dropdown_h').slideToggle();
+	});
 });
