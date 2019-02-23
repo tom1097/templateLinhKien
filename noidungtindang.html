@@ -1,295 +1,821 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Hshop.vn – Hshop.vn - Điện tử & Robot</title>
-	<meta charset="utf-8">
-	<meta name="description" content="Hshop.vn luôn cố gắng đem lại cho Quý Khách những Sản phẩm &amp; Dịch vụ tốt nhất trong lĩnh vực Điện tử và Robot.">
-	<meta content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0" name="viewport">
-	
-	<!-- fontwesome -->
-	<link href="assets/FontAwesome/css/all.css" rel="stylesheet">
-
-	<!-- <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css"> -->
-	<link rel="stylesheet" type="text/css" href="assets/libraries/bootstrap.min.css">
-	
-
-	<link rel="stylesheet" type="text/css" href="assets/base/style.bundle.css">
-
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
-
+    <title>Hshop.vn – Hshop.vn - Điện tử & Robot</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Hshop.vn luôn cố gắng đem lại cho Quý Khách những Sản phẩm &amp; Dịch vụ tốt nhất trong lĩnh vực Điện tử và Robot.">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0" name="viewport">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+    <!-- fontwesome -->
+    <link href="assets/FontAwesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/libraries/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/base/style.bundle.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
-<body>	
-	<section id="header">
-		<div class="container py-2">
-			<div class="row">
-				<div class="col-sm-3 col-md-3 col-12">
-					<div id="LogoContainer">
-						<a href="https://hshop.vn">
-							<img src="assets/img/logo.png" style="width:100%;height:80px;" alt="Hshop.vn">
-						</a>
-					</div>
-				</div>
-				<div class="col-sm-5 col-md-5 col-12 search-top">
-					<div class="input-group search-input-icon">
-						<input class="form-control py-2 border-right-0 border " type="search" placeholder="Search..." id="example-search-input">
-						<span class="input-group-append">
-							<button class="btn btn-outline-secondary border-left-0 border" type="button">
-								<i class="fa fa-search"></i>
-							</button>
-						</span>			    
-					</div>
-					<span class="pro-header">
-						Accepted English &amp; Vietnamese language: sensor, uno, mega, nhiet do,...
-					</span>
-				</div>
-				<div class="phone-header col-sm-4 col-md-4 col-12 ">
-					<span>Bán hàng:</span><a href="tel:02866704455">028.66704455</a><br>
-					<span>Kỹ thuật:</span><a href="tel:02866703344">028.66703344</a>
-				</div>					
-			</div>
-			<div id="TopMenu" class="cart_desk">
-				<ul>                    
-					<li class="CartLink topMenu_Cart">
-						<a href="/cart">
-							Giỏ hàng (<span id="cart-count">1</span> )
-							<span id="pInTop"></span>
-						</a>
-					</li>                    
-				</ul>
-				
-				<a class="guide-btn" href="/pages/cach-mua-hang-va-thanh-toan">
-					Hướng dẫn mua hàng
-				</a>
-				
-			</div>
-		</div>
-	</section>
-	<section id="menu-top" class="menu-top">
-		<div class="container">
-			<nav class="navbar navbar-expand-md navbar-dark">
-				<a class="navbar-brand" href="">MENU</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-				<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="collapsibleNavbar">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link" href="#">Trang chủ</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Hàng mới về</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Liên hệ</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Tuyển dụng</a>
-						</li>    
-					</ul>
-				</div>  
-			</nav>
-		</div>
-	</section>
-	<section id="tintuc"> 
-		<div class="container">
-			<div class="header-menu-top">
-					<marquee scrollamount="5"
-						direction="left"
-						behavior="scroll" style="color: red; font-size: 13px">
-						Hshop.vn trở lại hoạt động bình thường, kính chúc Quý Khách một năm mới đầy thành công >>>>>
-					</marquee>					
-				</div>
-				
-			</div>
-		</div>		
-	</section>
 
-	<section id="main">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3">
-					<nav id="sidebar">
-						<ul class="list-unstyled components">
-							<li class="active">
-								<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Home</a>
-								<ul class="collapse list-unstyled" id="homeSubmenu">
-									<li>
-										<a href="#">Home 1</a>
-									</li>
-									<li>
-										<a href="#">Home 2</a>
-									</li>
-									<li>
-										<a href="#">Home 3</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">About</a>
-							</li>
-							<li>
-								<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Pages</a>
-								<ul class="collapse list-unstyled" id="pageSubmenu">
-									<li>
-										<a href="#">Page 1</a>
-									</li>
-									<li>
-										<a href="#">Page 2</a>
-									</li>
-									<li>
-										<a href="#">Page 3</a>
-									</li>
-								</ul>
-							</li>			
-						</ul>
-					</nav>
-				</div>
+<body class="wrap-collections">
+    <div id="Container" class="container">
+        <div id="Outer">
+        	<!-- begin header -->
+            <section id="Header">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 col-12">
+                        <div id="LogoContainer">
+                            <a href="/">
+                                <img src="assets/img/logo.png" style="width:100%;height:80px;" alt="Hshop.vn">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-5 col-12 search-top">
+                        <div class="input-group search-input-icon">
+                            <input id="searchtext" class="form-control py-2 border-right-0 border " type="search" placeholder="Search..." id="example-search-input">
+                            <span class="input-group-append">
+                                <button class="btn btn-outline-secondary border-left-0 border border-radius-search-button" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                        <span class="pro-header">
+                            Accepted English &amp; Vietnamese language: sensor, uno, mega, nhiet do,...
+                        </span>
+                    </div>
+                    <div class="phone-header col-sm-12 col-md-3 col-12 ">
+                        <span>Bán hàng:</span><a href="tel:02866704455">028.66704455</a><br>
+                        <span>Kỹ thuật:</span><a href="tel:02866703344">028.66703344</a>
+                    </div>
+                </div>
+            </section>
+            <section id="TopMenu" class="cart_desk" style="margin-bottom: 10px">
+                <ul>
+                    <li class="CartLink topMenu_Cart">
+                        <a href="/cart">
+                            Giỏ hàng (<span id="cart-count">1</span> )
+                            <span id="pInTop"></span>
+                        </a>
+                    </li>
+                </ul>
+                <a class="guide-btn" href="/pages/cach-mua-hang-va-thanh-toan">
+                    Hướng dẫn mua hàng
+                </a>
+            </section>
+            <div class="clear"></div>
+            <section id="Menu-Info">
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <a class="navbar-brand card-a-menu" href="">MENU</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Trang chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hàng mới về</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Liên hệ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tuyển dụng</a>
+                            </li>
+                        </ul>
+                        <ul class="ml-auto list-menu-login">
+                            <li>
+                                <a href="/account/login"><i class="fa fa-sign-in-alt"></i> Đăng nhập</a>
+                            </li>
+                            <li>
+                                <a href="/account/register"><i class="fa fa-user"></i> Đăng ký</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </section>
+            	<!-- begin menu mobile -->
+            <section id="menu-sanpham" class="visible-xs-480">
+                <nav class="navbar navbar-expand-md navbar-dark"> 
+                    <a class="navbar-brand" href="">PRODUCT</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu_sanpham_child_1">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> 
+                    <div class="collapse navbar-collapse" id="menu_sanpham_child_1" >
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown dropdown_mobile">
+                                <a>
+                                    <span>IoT - Internet of Things</span>
+                                    <i class="fa fa-angle-down pull-right"></i>
+                                </a> 
+                                <ul class="dropdown-menu dropdown-menu_dray ">
+                                    <li>
+                                        <a href="/collections/phan-cung-iot-internet-of-things-hardware-platforms">
+                                            <i class="fas fa-arrow-right fa-circle_grey"></i>
+                                            <span class="caret">Phần cứng IoT</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/collections/phu-kien-iot-internet-of-things-hardware-accessories">
+                                            <i class="fas fa-arrow-right fa-circle_grey"></i>
+                                            <span class="caret">Phụ kiện IoT</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown dropdown_mobile">
+                                <a>
+                                    <span>Máy tính nhúng</span>
+                                    <i class="fa fa-angle-down pull-right"></i>
+                                </a> 
+                                <ul class="dropdown-menu dropdown-menu_dray">
+                                    <li>
+                                        <a href="/collections/phan-cung-iot-internet-of-things-hardware-platforms">
+                                            <i class="fas fa-arrow-right fa-circle_grey"></i>
+                                            <span class="caret">Mainboard</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/collections/phu-kien-iot-internet-of-things-hardware-accessories">
+                                            <i class="fas fa-arrow-right fa-circle_grey"></i>
+                                            <span class="caret">Raspberry Pi</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/collections/phu-kien-iot-internet-of-things-hardware-accessories">
+                                            <i class="fas fa-arrow-right fa-circle_grey"></i>
+                                            <span class="caret">Nano Pi</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/collections/phu-kien-iot-internet-of-things-hardware-accessories">
+                                            <i class="fas fa-arrow-right fa-circle_grey"></i>
+                                            <span class="caret">Orange Pi</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/collections/phu-kien-iot-internet-of-things-hardware-accessories">
+                                            <i class="fas fa-arrow-right fa-circle_grey"></i>
+                                            <span class="caret">Phụ kiện</span></a>
+                                    </li>
 
-				<div class="col-md-9">
-					<h4>Hshop.vn cần tuyển dụng Sinh Viên làm việc bán thời gian chuyên ngành Điện tử - Tự động hóa</h4>
-					<i class="far fa-user"></i> HSHOP.VN ĐIỆN TỬ & ROBOT 
-						<br>
-					<i class="far fa-calendar-alt"></i> 21/02/2018 10:45:54
-					<hr>
+                                </ul>
+                            </li>    
+                        </ul>        
+                    </div>
+                        <!--/.nav-collapse -->            
+                </nav>
+            </section> 
+           	 <!-- end menu mobile -->
+            <section id="tintuc">
+                <div class="header-menu-top">
+                    <marquee scrollamount="5" direction="left" behavior="scroll" style="color: red; font-size: 13px">
+                        Hshop.vn trở lại hoạt động bình thường, kính chúc Quý Khách một năm mới đầy thành công >>>>>
+                    </marquee>
+                </div>
+            </section>
+            <!-- end header -->            
+            
+            <!-- begin content -->
+           <div id="Wrapper">
+                <div id="main-slider-mobile">
+                    <div id="slider_img_mobile">
+                    </div>
+                </div>
+                <div id="main-content-left" class="left col-sm-3 col-12">
+                    <div id="cate-menu" class="DefaultModule cate-menu">
+                        <div class="defaultTitle cate-menu-title">
+                            <span>IoT - Internet of Things</span>
+                        </div>
+                        <div class="defaultContent cate-menu-content">
+                            <ul>
+                                <li class="level0">
+                                    <a href="/collections/phan-cung-iot-internet-of-things-hardware-platforms">
+                                        <span>Phần cứng IoT</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/phu-kien-iot-internet-of-things-hardware-accessories">
+                                        <span>Phụ kiện IoT</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="DefaultModule cate-menu">
+                        <div class="defaultTitle cate-menu-title">
+                            <span>Máy tính nhúng</span>
+                        </div>
+                        <div class="defaultContent cate-menu-content">
+                            <ul>
+                                <li class="level0">
+                                    <a href="/collections/mainboard">
+                                        <span>Mainboard</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/raspberry-pi">
+                                        <span>Raspberry Pi</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/nano-pi">
+                                        <span>Nano Pi</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/orange-pi">
+                                        <span>Orange Pi</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/phu-kien">
+                                        <span>Phụ kiện</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="DefaultModule cate-menu">
+                        <div class="defaultTitle cate-menu-title">
+                            <span>Mạch điện</span>
+                        </div>
+                        <div class="defaultContent cate-menu-content">
+                            <ul>
+                                <li class="level0 ">
+                                    <a class="click-sub-menu-left" href="javascript:void(0);">
+                                        <span>Arduino</span><i class="fa fa-caret-right icon-right"></i></a>
+                                    <ul class="sub-menu-left">
+                                        <li class="level1 ">
+                                            <a href="/collections/arduino">
+                                                <span>Arduino Board</span></a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/arduino-shield">
+                                                <span>Arduino Shield</span></a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/arduino-other">
+                                                <span>Phụ kiện Arduino</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="level0 ">
+                                    <a class="click-sub-menu-left" href="javascript:void(0);">
+                                        <span>
+                                            Màn hình LCD</span><i class="fa fa-caret-right icon-right"></i></a>
+                                    <ul class="sub-menu-left">
+                                        <li class="level1 ">
+                                            <a href="/collections/lcd-graphic">
+                                                <span>Màn hình LCD Graphic</span></a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/lcd-text">
+                                                <span>Màn hình LCD Text</span></a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/man-hinh-lcd-hmi">
+                                                <span>Màn hình LCD HMI</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="level0 ">
+                                    <a class="click-sub-menu-left" href="javascript:void(0);">
+                                        <span>RF, GSM, GPS, Bluetooth, Wifi</span><i class="fa fa-caret-right icon-right"></i>
+                                    </a>
+                                    <ul class="sub-menu-left">
+                                        <li class="level1 ">
+                                            <a href="/collections/rf-thong-thuong">
+                                                <span>RF thông thường</span></a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/rfid">
+                                                <span>RFID</span>
+                                            </a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/gsm">
+                                                <span>GSM</span></a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/gps">
+                                                <span>GPS</span></a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/bluetooth">
+                                                <span>Bluetooth</span></a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/wifi">
+                                                <span>Wifi</span></a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/zigbee">
+                                                <span>Zigbee</span></a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/lora">
+                                                <span>
+                                                    Lora</span></a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/anten-cap-jack-noi">
+                                                <span>Anten &amp; Cáp &amp; Jack nối</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="level0 ">
+                                    <a class="click-sub-menu-left" href="javascript:void(0);">
+                                        <span>
+                                            Kit phát triển và mạch nạp</span><i class="fa fa-caret-right icon-right"></i></a>
+                                    <ul class="sub-menu-left">
+                                        <li class="level1 ">
+                                            <a href="/collections/texas-instruments">
+                                                <span>Texas Instruments</span>
+                                            </a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/fpga">
+                                                <span>FPGA &amp; CPLD</span>
+                                            </a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/stmicroelectronics">
+                                                <span>STMicroelectronics</span>
+                                            </a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/8051">
+                                                <span>8051</span>
+                                            </a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/espressif">
+                                                <span>Espressif</span>
+                                            </a>
+                                        </li>
+                                        <li class="level1 ">
+                                            <a href="/collections/mach-nap-adapter">
+                                                <span>Mạch nạp &amp; Adapter</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/de-chuyen-adapter">
+                                        <span>Đế chuyển Adapter</span>
+                                    </a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/made-in-vietnam">
+                                        <span>
+                                            Made in Vietnam</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="DefaultModule cate-menu">
+                        <div class="defaultTitle cate-menu-title">
+                            <span>Module</span>
+                        </div>
+                        <div class="defaultContent cate-menu-content">
+                            <ul>
+                                <li class="level0">
+                                    <a href="/collections/dieu-khien-ban-phim-joystick">
+                                        <span>
+                                            Điều khiển &amp; Bàn phím &amp; Joystick</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/dimmer-tao-xung">
+                                        <span>
+                                            Dimmer &amp; Tạo xung</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/giao-tiep-chuyen-doi">
+                                        <span>
+                                            Giao tiếp &amp; Chuyển đổi</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/am-thanh-amply">
+                                        <span>
+                                            Âm thanh &amp; Khuếch đại Amply</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/dong-ngat-relay">
+                                        <span>
+                                            Đóng ngắt &amp; Relay</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/nguon-giam-ap-tang-ap-sac-pin">
+                                        <span>
+                                            Nguồn xung &amp; Giảm, tăng áp &amp; Sạc pin</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/thoi-gian-hien-thi-coi-buzzer">
+                                        <span>
+                                            Thời gian &amp; Hiển thị &amp; Còi, Buzzer</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="DefaultModule cate-menu">
+                        <div class="defaultTitle cate-menu-title">
+                            <span>Cảm biến</span>
+                        </div>
+                        <div class="defaultContent cate-menu-content">
+                            <ul>
+                                <li class="level0">
+                                    <a href="/collections/anh-sang-am-mau-sac">
+                                        <span>
+                                            Ánh sáng &amp; Âm thanh &amp; Màu sắc</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/chuyen-dong-rung">
+                                        <span>
+                                            Chuyển động &amp; Rung</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/dong-dien-dien-the">
+                                        <span>
+                                            Đo Dòng điện &amp; Điện thế</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/encoder-van-toc">
+                                        <span>
+                                            Dò line &amp; Encoder &amp; Vận tốc</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/gia-toc-goc-nghieng-la-ban">
+                                        <span>
+                                            Gia tốc &amp; Góc nghiêng &amp; La bàn</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/khi-gas">
+                                        <span>
+                                            Khí &amp; Gas</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/sinh-hoc">
+                                        <span>
+                                            Sinh học</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/tu-truong-kim-loai">
+                                        <span>
+                                            Từ trường &amp; Kim loại &amp; Điện dung</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/nhiet-do-do-am-ap-suat-mua">
+                                        <span>
+                                            Nhiệt độ &amp; Độ ẩm &amp; Mưa</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/ap-suat-can-nang-luu-luong">
+                                        <span>
+                                            Áp suất &amp; Lưu lượng &amp; Cân nặng</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/khoang-cach-vat-can-do-line">
+                                        <span>
+                                            Khoảng cách &amp; Vật cản &amp; Radar</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/so-nong-lanh-peltier">
+                                        <span>
+                                            Sò nóng lạnh Peltier</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="DefaultModule cate-menu">
+                        <div class="defaultTitle cate-menu-title">
+                            <span>Robot - Điều khiển</span>
+                        </div>
+                        <div class="defaultContent cate-menu-content">
+                            <ul>
+                                <li class="level0">
+                                    <a href="/collections/khung-robot">
+                                        <span>
+                                            Khung Robot</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/phu-kien-robot-diy">
+                                        <span>
+                                            Phụ kiện Robot - DIY</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/banh-xe">
+                                        <span>
+                                            Bánh xe</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a class="click-sub-menu-left" href="javascript:void(0);">
+                                        <span>
+                                            Động cơ</span><i class="fa fa-caret-right icon-right"></i></a>
+                                    <ul class="sub-menu-left">
+                                        <li class="level1 active">
+                                            <a href="/collections/dong-co-dc-thuong-phu-kien">
+                                                <span>
+                                                    Động cơ DC không giảm tốc</span></a>
+                                        </li>
+                                        <li class="level1">
+                                            <a href="/collections/dong-co-dc-giam-toc">
+                                                <span>
+                                                    Động cơ giảm tốc (có hộp số)</span></a>
+                                        </li>
+                                        <li class="level1">
+                                            <a href="/collections/dong-co-dc-servo">
+                                                <span>
+                                                    Động cơ DC Servo</span></a>
+                                        </li>
+                                        <li class="level1">
+                                            <a href="/collections/dong-co-rc-servo">
+                                                <span>
+                                                    Động cơ RC Servo</span></a>
+                                        </li>
+                                        <li class="level1">
+                                            <a href="/collections/dong-co-coreless">
+                                                <span>
+                                                    Động cơ Coreless</span></a>
+                                        </li>
+                                        <li class="level1">
+                                            <a href="/collections/dong-co-bom-rung">
+                                                <span>
+                                                    Động cơ Bơm &amp; Rung</span></a>
+                                        </li>
+                                        <li class="level1">
+                                            <a href="/collections/dong-co-buoc-step-motor">
+                                                <span>
+                                                    Động cơ bước (Step Motor)</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="level0">
+                                    <a class="click-sub-menu-left" href="javascript:void(0);">
+                                        <span>
+                                            Mạch điều khiển Động cơ</span><i class="fa fa-caret-right icon-right"></i></a>
+                                    <ul class="sub-menu-left">
+                                        <li class="level1">
+                                            <a href="/collections/dong-co-dc">
+                                                <span>
+                                                    Điều khiển động cơ DC</span></a>
+                                        </li>
+                                        <li class="level1">
+                                            <a href="/collections/dieu-khien-dong-co-buoc-step-motor">
+                                                <span>
+                                                    Điều khiển động cơ bước (Step Motor)</span></a>
+                                        </li>
+                                        <li class="level1">
+                                            <a href="/collections/dieu-khien-rc-servo">
+                                                <span>
+                                                    Điều khiển RC Servo</span></a>
+                                        </li>
+                                        <li class="level1">
+                                            <a href="/collections/dieu-khien-dong-co-ac">
+                                                <span>
+                                                    Điều khiển động cơ AC</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/pin-sac">
+                                        <span>
+                                            Pin &amp; Sạc</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/may-in-3d">
+                                        <span>
+                                            Máy in 3D</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="DefaultModule cate-menu">
+                        <div class="defaultTitle cate-menu-title">
+                            <span>Phụ kiện và dụng cụ</span>
+                        </div>
+                        <div class="defaultContent cate-menu-content">
+                            <ul>
+                                <li class="level0">
+                                    <a href="/collections/linh-kien-dien-tu">
+                                        <span>
+                                            Linh kiện điện tử</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/day-cam-breadboard-connector">
+                                        <span>
+                                            Dây cắm &amp; Breadboard &amp; Connector</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/dung-cu-han">
+                                        <span>
+                                            Dụng cụ hàn</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/may-do">
+                                        <span>
+                                            Máy đo</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/nguon-dien">
+                                        <span>
+                                            Nguồn điện</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/dung-cu-co-khi">
+                                        <span>
+                                            Dụng cụ cơ khí</span></a>
+                                </li>
+                                <li class="level0">
+                                    <a href="/collections/phu-kien-co-khi">
+                                        <span>
+                                            Phụ kiện cơ khí</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="use_banner_sidebar_left_home">
+                        <a href="https://makershop.vn/" target="_blank">
+                            <img src="assets/img/banner_sidebar_left_home.png?v=40" alt="Hshop.vn" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <section class="main-wrap-right col-md-9 col-sm-12 col-12">                    
+                    <div id="HomeFeaturedProducts" class="Block FeaturedProducts DefaultModule">
 
-					<div class="content_baiviet_tomiot">
-						<img class="hinhanhwidth100_tomiot" src="assets/img/chitietbaiviet/arduino_engineer.jpg" alt="">
+                        <!-- Hien thi tin dang -->
+                        <div class="col-md-12">
+                            <h4>Hshop.vn cần tuyển dụng Sinh Viên làm việc bán thời gian chuyên ngành Điện tử - Tự động hóa</h4>
+                            <i class="far fa-user"></i> HSHOP.VN ĐIỆN TỬ & ROBOT 
+                                <br>
+                            <i class="far fa-calendar-alt"></i> 21/02/2018 10:45:54
+                            <hr>
 
-						<p>Đối với các bạn Sinh Viên, làm thêm là một trải nghiệm cần thiết để rèn luyện các kỹ năng cơ bản cho công việc của các bạn sau khi ra trường, làm thêm cũng giúp các bạn có thêm một phần chi phí để trang trải cho việc học phụ giúp gia đình.
+                            <div class="content_baiviet_tomiot">
+                                <img class="hinhanhwidth100_tomiot" src="assets/img/chitietbaiviet/arduino_engineer.jpg" alt="">
 
-						Việc làm thêm tốt và phù hợp nhất là những công việc có liên quan đến chuyên ngành học, đến công việc tương lai của các bạn, nó sẽ giúp bạn có thêm kiến thức, sự tự tin, kinh nghiệm và trải nghiệm để dễ dàng vượt qua các câu hỏi phỏng vấn xin việc sau này.
+                                <p>Đối với các bạn Sinh Viên, làm thêm là một trải nghiệm cần thiết để rèn luyện các kỹ năng cơ bản cho công việc của các bạn sau khi ra trường, làm thêm cũng giúp các bạn có thêm một phần chi phí để trang trải cho việc học phụ giúp gia đình.
 
-						Tại Hshop.vn, cửa hàng chuyên về phần cứng lập trình Điện tử & Robot, hiện tại đang cần tuyển các bạn sinh viên làm thêm chuyên ngành Điện tử - Tự động hóa, mô tả công việc như sau:
+                                Việc làm thêm tốt và phù hợp nhất là những công việc có liên quan đến chuyên ngành học, đến công việc tương lai của các bạn, nó sẽ giúp bạn có thêm kiến thức, sự tự tin, kinh nghiệm và trải nghiệm để dễ dàng vượt qua các câu hỏi phỏng vấn xin việc sau này.
 
-						Nghiên cứu sản phẩm mới.
-						Hỗ trợ kỹ thuật, test sản phẩm, tư vấn cho khách hàng.
-						Giải đáp kỹ thuật qua điện thoại.
-						Bảo hành hàng hóa.
-						Yêu cầu hồ sơ:
+                                Tại Hshop.vn, cửa hàng chuyên về phần cứng lập trình Điện tử & Robot, hiện tại đang cần tuyển các bạn sinh viên làm thêm chuyên ngành Điện tử - Tự động hóa, mô tả công việc như sau:
 
-						CV giới thiệu sơ bộ về bản thân và hình chụp Chứng Minh Nhân Dân.
+                                Nghiên cứu sản phẩm mới.
+                                Hỗ trợ kỹ thuật, test sản phẩm, tư vấn cho khách hàng.
+                                Giải đáp kỹ thuật qua điện thoại.
+                                Bảo hành hàng hóa.
+                                Yêu cầu hồ sơ:
 
-						Hồ sơ xin việc hoặc CV gửi tới email: baoanh170590@gmail.com hoặc contact.hshopvn@gmail.com.
+                                CV giới thiệu sơ bộ về bản thân và hình chụp Chứng Minh Nhân Dân.
 
-						Liên hệ trực tiếp phỏng vấn: Mr.Bảo Anh / Phone: 0934.022.502
-						</p>
+                                Hồ sơ xin việc hoặc CV gửi tới email: baoanh170590@gmail.com hoặc contact.hshopvn@gmail.com.
 
-						<div style="float: right; text-align: right;">
-							Xin cảm ơn các bạn đã đọc tin! <br>
-							<strong>Ban Quản Trị Hshop.vn</strong>
-						</div>
-						
-					</div>
-					
-				</div>
-			</div>
-			
-		</div>	
-	</section>
-	<section id=footer>
-		<div id="FooterContainer" class="footer-info container">
-			<div class="row">
-				<div class="col-md-2 col-sm-6 col-6 box-footer box-footer-1">
-					<ul>
-						<li><span><font size="4" color="#004481">Tổng quan</font></span></li>
-					</ul>
-					<ul class="form1">
-												
-						<li><a href="/">Trang chủ</a></li>							
-												
-						<li><a href="/collections/san-pham-moi-nhat-new-arrival-products">Hàng mới về</a></li>							
-												
-						<li><a href="/pages/lien-he">Liên hệ</a></li>							
-												
-						<li><a href="/blogs/tin-tuc-hshopvn">Tuyển dụng</a></li>							
-						
-					</ul>
-				</div>
-				<div class="col-md-2 col-sm-6 col-6 box-footer box-footer-2">
-					<ul>
-						<li><span><font size="4" color="#004481">Thông tin</font></span></li>
-						<!--<li><span>Chính sách & Dịch vụ</span></li>-->
+                                Liên hệ trực tiếp phỏng vấn: Mr.Bảo Anh / Phone: 0934.022.502
+                                </p>
+                                <img class="hinhanhwidth100_tomiot" src="assets/img/tuyendung/linh-kien-may-in.png" alt="">
 
-					</ul>
-					<ul class="form">					
-												
-						<li><a href="/pages/chuyen-phat-hang-hoa">Chuyển phát tối ưu</a></li>							
-												
-						<li><a href="/pages/doi-tra-mien-phi">Đổi trả miễn phí</a></li>							
-												
-						<li><a href="/pages/chinh-sach-bao-hanh">Bảo hành trách nhiệm</a></li>							
-												
-						<li><a href="/pages/tiet-kiem-toi-da">Tiết kiệm tối đa</a></li>							
-												
-						<li><a href="/pages/lien-he">Liên hệ Hshop.vn</a></li>							
-												
-						<li><a href="/pages/bao-mat-thong-tin">Bảo mật thông tin</a></li>							
-						
-					</ul>
-				</div>
-				<div class="col-md-5 col-sm-6 col-12 box-footer">
-					<ul>
-						<li><span><font size="4" color="#004481">Liên hệ</font></span></li>
-					</ul>
-					<ul class="form" id="footer_3">
-						<li class="footer-cty"><a href="http://hshop.vn/pages/lien-he"><span>Hshop.vn - 2/16 Lữ Gia, Phường 15, Quận 11, TP. HCM (hẻm số 2 Lữ Gia nằm bên hông Sân vận động Phú Thọ, ngay sau lưng Phòng cháy chữa cháy Quận 11).</span></a></li>	
-						<li><i class="fa fa-clock-o"></i> Giờ làm việc: <span>Thứ 2 - Thứ 7: 8h00 đến 17h30, Chủ Nhật nghỉ.</span></li>				
-						<li><i class="fa fa-envelope"></i> Email bán hàng: <a href="mailto:contact.hshopvn@gmail.com"><span>contact.hshopvn@gmail.com</span></a></li> 			
-						<li><i class="fa fa-phone"></i> Số điện thoại bán hàng: <a href="tel:02866704455">028.6670.4455</a> - <a href="tel:0934022500">0934.022.500</a></li>
-						<li><i class="fa fa fa-cog"></i><a href="https://www.facebook.com/groups/qahshopvn/"> Hỗ trợ kỹ thuật xin Quý Khách đăng tại trang Facebook Hỏi - Đáp kỹ thuật Hshop.vn. </a></li>
-						<li><i class="fa fa-phone"></i> Số điện thoại hỗ trợ kỹ thuật: <a href="tel:02866703344">028.6670.3344</a> - <a href="tel:0938022500">0938.022.500</a></li>
-												
-					</ul>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 box-footer">
-					<ul>
-						<li><span><font size="4" color="#004481">Facebook</font></span></li>
-					</ul>
-					<ul class="form form-fb">							
-						<li>
-							<div class="face-content">
-								<div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/hshop.vn" data-height="215" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=250&amp;height=215&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fhshop.vn&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"><span style="vertical-align: bottom; width: 250px; height: 214px;"><iframe name="f240b5964616544" width="1000px" height="215px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.11/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fvy-MhgbfL4v.js%3Fversion%3D44%23cb%3Df9f5d9c9be1c3%26domain%3Dhshop.vn%26origin%3Dhttps%253A%252F%252Fhshop.vn%252Ff3e73221c24758c%26relation%3Dparent.parent&amp;container_width=250&amp;height=215&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fhshop.vn&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false" style="border: none; visibility: visible; width: 250px; height: 214px;" class=""></iframe></span></div>
+                                <p>Đối với các bạn Sinh Viên, làm thêm là một trải nghiệm cần thiết để rèn luyện các kỹ năng cơ bản cho công việc của các bạn sau khi ra trường, làm thêm cũng giúp các bạn có thêm một phần chi phí để trang trải cho việc học phụ giúp gia đình.
 
-							</div>
-						</li>
-					</ul>
-				</div>
-				<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://staticxx.facebook.com/connect/xd_arbiter/r/vy-MhgbfL4v.js?version=44#channel=f3e73221c24758c&amp;origin=https%3A%2F%2Fhshop.vn" style="border: none;"></iframe></div></div><div class="fb-customerchat ztb-customchatbox-43d0c626 fb_invisible_flow fb_iframe_widget" page_id="253347371469531" theme_color="#014590" logged_in_greeting="Hi! How can we help you?" logged_out_greeting="Hi! How can we help you?" greeting_dialog_display="hide" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;greeting_dialog_display=hide&amp;locale=vi_VN&amp;logged_in_greeting=Hi!%20How%20can%20we%20help%20you%3F&amp;logged_out_greeting=Hi!%20How%20can%20we%20help%20you%3F&amp;page_id=253347371469531&amp;sdk=joey&amp;theme_color=%23014590"><span style="vertical-align: bottom; width: 384px; height: 0px;"><iframe name="f1d6c2b8170d65" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="" src="https://www.facebook.com/v2.11/plugins/customerchat.php?app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fvy-MhgbfL4v.js%3Fversion%3D44%23cb%3Df39df17284302e4%26domain%3Dhshop.vn%26origin%3Dhttps%253A%252F%252Fhshop.vn%252Ff3e73221c24758c%26relation%3Dparent.parent&amp;container_width=0&amp;greeting_dialog_display=hide&amp;locale=vi_VN&amp;logged_in_greeting=Hi!%20How%20can%20we%20help%20you%3F&amp;logged_out_greeting=Hi!%20How%20can%20we%20help%20you%3F&amp;page_id=253347371469531&amp;sdk=joey&amp;theme_color=%23014590" style="border: none; visibility: visible; width: 288pt; height: 214px; border-radius: 9pt; bottom: 84px; padding: 0px; position: fixed; right: 9pt; top: auto; z-index: 2147483647; max-height: 0px;" class="" data-testid="dialog_iframe"></iframe></span></div><div class="fb_dialog  fb_dialog_advanced fb_customer_chat_bubble_animated_no_badge fb_customer_chat_bubble_pop_in" style="background: none; border-radius: 50%; bottom: 18pt; display: inline; height: 45pt; padding: 0px; position: fixed; right: 18pt; top: auto; width: 45pt; z-index: 2147483646;"><div class="fb_dialog_content" style="background: none;"><iframe name="blank_f1d6c2b8170d65" width="60px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" tabindex="-1" data-testid="bubble_iframe" src="https://staticxx.facebook.com/connect/xd_arbiter/r/vy-MhgbfL4v.js?version=44#forIframe=f1d6c2b8170d65" style="border: none;"></iframe></div></div></div>
-				
-			</div>
-		</div>
-		<div class="wrap-footer-bottom ">
-			<div class="row">
-				<div class="col-md-4 col-12 left">
-					<img src="assets/img/thanh-toan-mua-hang-2.jpg?v=40" class="img-responsive">
-				</div>
-				<div class="col-md-4 col-12 center">
-					<p>
-						Cửa hàng HSHOP ĐIỆN TỬ VÀ ROBOT<br>
-						GPĐKKD số: 41K8019734 do UBND Quận 11 cấp ngày 06/12/2017
-					<br>
-						<a href="https://www.dmca.com/Protection/Status.aspx?ID=a20a682c-dec4-498f-8b39-2da77042ce24&amp;refurl=https://hshop.vn/" title="DMCA.com Protection Status" class="dmca-badge"> <img style="width:auto;height:25px;" src="https://images.dmca.com/Badges/_dmca_premi_badge_4.png?ID=a20a682c-dec4-498f-8b39-2da77042ce24" alt="DMCA.com Protection Status"></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-					</p>
-				</div>
-				<div class="col-md-4 col-12 right">
-					<a target="_blank" href="http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=40110"><img src="assets/img/dathongbao.png" class="img-responsive"></a>
-				</div>
-			</div>		
-		</div>
-	</section>
+                                Việc làm thêm tốt và phù hợp nhất là những công việc có liên quan đến chuyên ngành học, đến công việc tương lai của các bạn, nó sẽ giúp bạn có thêm kiến thức, sự tự tin, kinh nghiệm và trải nghiệm để dễ dàng vượt qua các câu hỏi phỏng vấn xin việc sau này.
 
+                                Tại Hshop.vn, cửa hàng chuyên về phần cứng lập trình Điện tử & Robot, hiện tại đang cần tuyển các bạn sinh viên làm thêm chuyên ngành Điện tử - Tự động hóa, mô tả công việc như sau:
 
+                                Nghiên cứu sản phẩm mới.
+                                Hỗ trợ kỹ thuật, test sản phẩm, tư vấn cho khách hàng.
+                                Giải đáp kỹ thuật qua điện thoại.
+                                Bảo hành hàng hóa.
+                                Yêu cầu hồ sơ:
 
-<script src="assets/libraries/jquery.min.js"></script>
-<script src="assets/libraries/popper.min.js"></script>
-<script src="assets/libraries/bootstrap.min.js"></script>
+                                CV giới thiệu sơ bộ về bản thân và hình chụp Chứng Minh Nhân Dân.
 
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('#sidebarCollapse').on('click', function () {
-            $('#sidebar').toggleClass('active');
-        });
-    });
-</script>
+                                Hồ sơ xin việc hoặc CV gửi tới email: baoanh170590@gmail.com hoặc contact.hshopvn@gmail.com.
+
+                                Liên hệ trực tiếp phỏng vấn: Mr.Bảo Anh / Phone: 0934.022.502
+                                </p>
+                                <img class="hinhanhwidth100_tomiot" src="assets/img/tuyendung/tuydung.jpg" alt="">
+
+                                <p>Đối với các bạn Sinh Viên, làm thêm là một trải nghiệm cần thiết để rèn luyện các kỹ năng cơ bản cho công việc của các bạn sau khi ra trường, làm thêm cũng giúp các bạn có thêm một phần chi phí để trang trải cho việc học phụ giúp gia đình.
+
+                                Việc làm thêm tốt và phù hợp nhất là những công việc có liên quan đến chuyên ngành học, đến công việc tương lai của các bạn, nó sẽ giúp bạn có thêm kiến thức, sự tự tin, kinh nghiệm và trải nghiệm để dễ dàng vượt qua các câu hỏi phỏng vấn xin việc sau này.
+
+                                Tại Hshop.vn, cửa hàng chuyên về phần cứng lập trình Điện tử & Robot, hiện tại đang cần tuyển các bạn sinh viên làm thêm chuyên ngành Điện tử - Tự động hóa, mô tả công việc như sau:
+
+                                Nghiên cứu sản phẩm mới.
+                                Hỗ trợ kỹ thuật, test sản phẩm, tư vấn cho khách hàng.
+                                Giải đáp kỹ thuật qua điện thoại.
+                                Bảo hành hàng hóa.
+                                Yêu cầu hồ sơ:
+
+                                CV giới thiệu sơ bộ về bản thân và hình chụp Chứng Minh Nhân Dân.
+
+                                Hồ sơ xin việc hoặc CV gửi tới email: baoanh170590@gmail.com hoặc contact.hshopvn@gmail.com.
+
+                                Liên hệ trực tiếp phỏng vấn: Mr.Bảo Anh / Phone: 0934.022.502
+                                </p>
+
+                                <div style="float: right; text-align: right;">
+                                    Xin cảm ơn các bạn đã đọc tin! <br>
+                                    <strong>Ban Quản Trị Hshop.vn</strong>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>                        
+
+                        <!-- Ket thuc hien thi tin dang -->
+                    </div>
+                </section>                          
+            </div>
+            <div class="Clear"></div>
+            <!-- end content -->
+        </div>        
+    </div>
+    </div>
+    <section class="bg-footer">
+        <div id=Footer>
+            <div id="FooterContainer" class="footer-info container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-6 col-6 box-footer box-footer-1">
+                        <ul>
+                            <li><span>
+                                    <font size="4" color="#004481">Tổng quan</font>
+                                </span></li>
+                        </ul>
+                        <ul class="form1">
+                            <li><a href="/">Trang chủ</a></li>
+                            <li><a href="/collections/san-pham-moi-nhat-new-arrival-products">Hàng mới về</a></li>
+                            <li><a href="/pages/lien-he">Liên hệ</a></li>
+                            <li><a href="/blogs/tin-tuc-hshopvn">Tuyển dụng</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-6 box-footer box-footer-2">
+                        <ul>
+                            <li><span>
+                                    <font size="4" color="#004481">Thông tin</font>
+                                </span></li>
+                            <!--<li><span>Chính sách & Dịch vụ</span></li>-->
+                        </ul>
+                        <ul class="form">
+                            <li><a href="/pages/chuyen-phat-hang-hoa">Chuyển phát tối ưu</a></li>
+                            <li><a href="/pages/doi-tra-mien-phi">Đổi trả miễn phí</a></li>
+                            <li><a href="/pages/chinh-sach-bao-hanh">Bảo hành trách nhiệm</a></li>
+                            <li><a href="/pages/tiet-kiem-toi-da">Tiết kiệm tối đa</a></li>
+                            <li><a href="/pages/lien-he">Liên hệ Hshop.vn</a></li>
+                            <li><a href="/pages/bao-mat-thong-tin">Bảo mật thông tin</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 col-sm-6 col-12 box-footer">
+                        <ul>
+                            <li><span>
+                                    <font size="4" color="#004481">Liên hệ</font>
+                                </span></li>
+                        </ul>
+                        <ul class="form" id="footer_3">
+                            <li class="footer-cty"><a href="http://hshop.vn/pages/lien-he"><span>Hshop.vn - 2/16 Lữ Gia, Phường 15, Quận 11, TP. HCM (hẻm số 2 Lữ Gia nằm bên hông Sân vận động Phú Thọ, ngay sau lưng Phòng cháy chữa cháy Quận 11).</span></a></li>
+                            <li><i class="fa fa-clock-o"></i> Giờ làm việc: <span>Thứ 2 - Thứ 7: 8h00 đến 17h30, Chủ Nhật nghỉ.</span></li>
+                            <li><i class="fa fa-envelope"></i> Email bán hàng: <a href="mailto:contact.hshopvn@gmail.com"><span>contact.hshopvn@gmail.com</span></a></li>
+                            <li><i class="fa fa-phone"></i> Số điện thoại bán hàng: <a href="tel:02866704455">028.6670.4455</a> - <a href="tel:0934022500">0934.022.500</a></li>
+                            <li><i class="fa fa fa-cog"></i><a href="https://www.facebook.com/groups/qahshopvn/"> Hỗ trợ kỹ thuật xin Quý Khách đăng tại trang Facebook Hỏi - Đáp kỹ thuật Hshop.vn. </a></li>
+                            <li><i class="fa fa-phone"></i> Số điện thoại hỗ trợ kỹ thuật: <a href="tel:02866703344">028.6670.3344</a> - <a href="tel:0938022500">0938.022.500</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12 box-footer">
+                        <ul>
+                            <li><span>
+                                    <font size="4" color="#004481">Facebook</font>
+                                </span></li>
+                        </ul>
+                        <ul class="form form-fb">
+                            <li>
+                                <div class="face-content">
+                                    <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/hshop.vn" data-height="215" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=250&amp;height=215&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fhshop.vn&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"><span style="vertical-align: bottom; width: 250px; height: 214px;"><iframe name="f240b5964616544" width="1000px" height="215px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.11/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fvy-MhgbfL4v.js%3Fversion%3D44%23cb%3Df9f5d9c9be1c3%26domain%3Dhshop.vn%26origin%3Dhttps%253A%252F%252Fhshop.vn%252Ff3e73221c24758c%26relation%3Dparent.parent&amp;container_width=250&amp;height=215&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fhshop.vn&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false" style="border: none; visibility: visible; width: 250px; height: 214px;" class=""></iframe></span></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="fb-root" class=" fb_reset">
+                        <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
+                            <div></div>
+                            <div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://staticxx.facebook.com/connect/xd_arbiter/r/vy-MhgbfL4v.js?version=44#channel=f3e73221c24758c&amp;origin=https%3A%2F%2Fhshop.vn" style="border: none;"></iframe></div>
+                        </div>
+                        <div class="fb-customerchat ztb-customchatbox-43d0c626 fb_invisible_flow fb_iframe_widget" page_id="253347371469531" theme_color="#014590" logged_in_greeting="Hi! How can we help you?" logged_out_greeting="Hi! How can we help you?" greeting_dialog_display="hide" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;greeting_dialog_display=hide&amp;locale=vi_VN&amp;logged_in_greeting=Hi!%20How%20can%20we%20help%20you%3F&amp;logged_out_greeting=Hi!%20How%20can%20we%20help%20you%3F&amp;page_id=253347371469531&amp;sdk=joey&amp;theme_color=%23014590"><span style="vertical-align: bottom; width: 384px; height: 0px;"><iframe name="f1d6c2b8170d65" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="" src="https://www.facebook.com/v2.11/plugins/customerchat.php?app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fvy-MhgbfL4v.js%3Fversion%3D44%23cb%3Df39df17284302e4%26domain%3Dhshop.vn%26origin%3Dhttps%253A%252F%252Fhshop.vn%252Ff3e73221c24758c%26relation%3Dparent.parent&amp;container_width=0&amp;greeting_dialog_display=hide&amp;locale=vi_VN&amp;logged_in_greeting=Hi!%20How%20can%20we%20help%20you%3F&amp;logged_out_greeting=Hi!%20How%20can%20we%20help%20you%3F&amp;page_id=253347371469531&amp;sdk=joey&amp;theme_color=%23014590" style="border: none; visibility: visible; width: 288pt; height: 214px; border-radius: 9pt; bottom: 84px; padding: 0px; position: fixed; right: 9pt; top: auto; z-index: 2147483647; max-height: 0px;" class="" data-testid="dialog_iframe"></iframe></span></div>
+                        <div class="fb_dialog  fb_dialog_advanced fb_customer_chat_bubble_animated_no_badge fb_customer_chat_bubble_pop_in" style="background: none; border-radius: 50%; bottom: 18pt; display: inline; height: 45pt; padding: 0px; position: fixed; right: 18pt; top: auto; width: 45pt; z-index: 2147483646;">
+                            <div class="fb_dialog_content" style="background: none;"><iframe name="blank_f1d6c2b8170d65" width="60px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" tabindex="-1" data-testid="bubble_iframe" src="https://staticxx.facebook.com/connect/xd_arbiter/r/vy-MhgbfL4v.js?version=44#forIframe=f1d6c2b8170d65" style="border: none;"></iframe></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap-footer-bottom">
+                <div class="col-md-4 col-12 left">
+                    <img src="assets/img/thanh-toan-mua-hang-2.jpg?v=40" class="img-footer img-fluid">
+                </div>
+                <div class="col-md-4 col-12 center " style="float: left;">
+                    <p>
+                        Cửa hàng HSHOP ĐIỆN TỬ VÀ ROBOT<br>
+                        GPĐKKD số: 41K8019734 do UBND Quận 11 cấp ngày 06/12/2017
+                        <br>
+                        <a href="/" title="DMCA.com Protection Status" class="dmca-badge"> <img style="width:auto;height:25px;margin: 0px auto;" src="https://images.dmca.com/Badges/_dmca_premi_badge_4.png?ID=a20a682c-dec4-498f-8b39-2da77042ce24" alt="DMCA.com Protection Status"></a>                        
+                    </p>
+                </div>
+                <div class="col-md-4 col-12 right">
+                    <a target="_blank" href="http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=40110"><img src="assets/img/dathongbao.png" class="img-fluid img-footer"></a>
+                </div>             
+            </div>
+        </div>
+    </section>
+    
+    <script src="assets/libraries/jquery.min.js"></script>
+    <script src="assets/libraries/popper.min.js"></script>
+    <script src="assets/libraries/bootstrap.min.js"></script>
+    <script src="assets/base/style.bundle.js"></script>
+    <script src="assets/myJS.js"></script>
+
 </body>
+
 </html>

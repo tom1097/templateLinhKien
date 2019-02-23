@@ -170,13 +170,16 @@
             
             <!-- begin content -->
            <div id="Wrapper">
-                <section id="main-content-left" class="left col-sm-3 col-12">
+                <div id="main-slider-mobile">
+                    <div id="slider_img_mobile">
+                    </div>
+                </div>
+                <div id="main-content-left" class="left col-sm-3 col-12">
                     <div id="cate-menu" class="DefaultModule cate-menu">
-                        <div class="defaultTitle cate-menu-title click-menu-dropdown_h">
+                        <div class="defaultTitle cate-menu-title">
                             <span>IoT - Internet of Things</span>
-                            <i class="fa fa-angle-right"></i>
                         </div>
-                        <div class="defaultContent cate-menu-content menu-dropdown_h">
+                        <div class="defaultContent cate-menu-content">
                             <ul>
                                 <li class="level0">
                                     <a href="/collections/phan-cung-iot-internet-of-things-hardware-platforms">
@@ -190,11 +193,10 @@
                         </div>
                     </div>
                     <div class="DefaultModule cate-menu">
-                        <div class="defaultTitle cate-menu-title click-menu-dropdown_h">
+                        <div class="defaultTitle cate-menu-title">
                             <span>Máy tính nhúng</span>
-                            <i class="fa fa-angle-right"></i>                            
                         </div>
-                        <div class="defaultContent cate-menu-content menu-dropdown_h">
+                        <div class="defaultContent cate-menu-content">
                             <ul>
                                 <li class="level0">
                                     <a href="/collections/mainboard">
@@ -220,11 +222,10 @@
                         </div>
                     </div>
                     <div class="DefaultModule cate-menu">
-                        <div class="defaultTitle cate-menu-title click-menu-dropdown_h">
+                        <div class="defaultTitle cate-menu-title">
                             <span>Mạch điện</span>
-                            <i class="fa fa-angle-right"></i>                            
                         </div>
-                        <div class="defaultContent cate-menu-content menu-dropdown_h">
+                        <div class="defaultContent cate-menu-content">
                             <ul>
                                 <li class="level0 ">
                                     <a class="click-sub-menu-left" href="javascript:void(0);">
@@ -360,11 +361,10 @@
                         </div>
                     </div>
                     <div class="DefaultModule cate-menu">
-                        <div class="defaultTitle cate-menu-title click-menu-dropdown_h">
+                        <div class="defaultTitle cate-menu-title">
                             <span>Module</span>
-                            <i class="fa fa-angle-right"></i>                            
                         </div>
-                        <div class="defaultContent cate-menu-content menu-dropdown_h">
+                        <div class="defaultContent cate-menu-content">
                             <ul>
                                 <li class="level0">
                                     <a href="/collections/dieu-khien-ban-phim-joystick">
@@ -405,11 +405,10 @@
                         </div>
                     </div>
                     <div class="DefaultModule cate-menu">
-                        <div class="defaultTitle cate-menu-title click-menu-dropdown_h">
+                        <div class="defaultTitle cate-menu-title">
                             <span>Cảm biến</span>
-                            <i class="fa fa-angle-right"></i>                            
                         </div>
-                        <div class="defaultContent cate-menu-content menu-dropdown_h">
+                        <div class="defaultContent cate-menu-content">
                             <ul>
                                 <li class="level0">
                                     <a href="/collections/anh-sang-am-mau-sac">
@@ -475,11 +474,10 @@
                         </div>
                     </div>
                     <div class="DefaultModule cate-menu">
-                        <div class="defaultTitle cate-menu-title click-menu-dropdown_h">
+                        <div class="defaultTitle cate-menu-title">
                             <span>Robot - Điều khiển</span>
-                            <i class="fa fa-angle-right"></i>                            
                         </div>
-                        <div class="defaultContent cate-menu-content menu-dropdown_h">
+                        <div class="defaultContent cate-menu-content">
                             <ul>
                                 <li class="level0">
                                     <a href="/collections/khung-robot">
@@ -579,11 +577,10 @@
                         </div>
                     </div>
                     <div class="DefaultModule cate-menu">
-                        <div class="defaultTitle cate-menu-title click-menu-dropdown_h">
+                        <div class="defaultTitle cate-menu-title">
                             <span>Phụ kiện và dụng cụ</span>
-                            <i class="fa fa-angle-right"></i>                            
                         </div>
-                        <div class="defaultContent cate-menu-content menu-dropdown_h">
+                        <div class="defaultContent cate-menu-content">
                             <ul>
                                 <li class="level0">
                                     <a href="/collections/linh-kien-dien-tu">
@@ -625,233 +622,346 @@
                     </div>
                     <div class="use_banner_sidebar_left_home">
                         <a href="https://makershop.vn/" target="_blank">
-                            <img src="assets/img/banner_sidebar_left_home.png?v=40" alt="Hshop.vn">
+                            <img src="assets/img/banner_sidebar_left_home.png?v=40" alt="Hshop.vn" class="img-fluid">
                         </a>
                     </div>
-                </section>
-                <section class="main-wrap-right col-md-9 col-sm-12 col-12">                    
-                    <div id="HomeFeaturedProducts" class="Block FeaturedProducts DefaultModule">
-                        <div class="defaultTitle TitleContent">
-                            <a href="/collections/san-pham-moi-nhat-new-arrival-products"><span>Sản phẩm mới nhất</span></a>
+                </div>
+                <section class="content main-wrap-right col-md-9 col-sm-12 col-12">                    
+                    <div class="row">
+
+                        <!-- Hien thi ten san pham -->
+                        <div class="col-md-12 col-sm-12 cangiua_tomiot">
+                            <h1>Màn Hình 7 Inch Cảm Ứng Điện Dung Cho Máy Tính Nano Pi</h1>
                         </div>
-                        <div class="defaultContent BlockContent">                           
-                            <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
-                                <div id="ProductImage" class="ProductImage">
-                                    <a href="/products/mach-nap-debugger-arm-jlink-v9">
-                                        <img alt="Mạch nạp Debugger ARM Jlink V9" title="Mạch nạp Debugger ARM Jlink V9" src="assets/img/h8.jpg" class="img-fluid" />
-                                    </a>
+                        <!-- Ket thuc hien thi ten san pham -->
+
+                        <div class=" col-md-6 col-sm-12 col-12 cangiua_tomiot">
+                            <img src="assets/img/chi-tiet-san-pham/sanpham1.jpg" style="width: 100%;" alt="">
+                        </div>
+                        <!-- Ket Thuc hien thi hinh anh san pham -->
+
+                        <div class=" col-md-6 col-sm-12 col-12 ">
+                            <div class="row">
+                                <div style="padding-left: 20px;" class="padding10_tomiot col-md-12 col-sm-12 col-12">
+                                    <strong>Nhà sản xuất:</strong><span> Import</span> 
                                 </div>
-                                <div class="ProductDetails">
-                                    <strong><a href='/products/mach-nap-debugger-arm-jlink-v9'>
-                                            Mạch nạp Debugger ARM Jlink V9</a></strong>
+                                <hr>
+                                <div style="padding-left: 20px;" class="padding10_tomiot col-md-12 col-sm-12">
+                                    <strong>Giá bán:</strong>
+                                </div>  
+                                <div style="padding-left: 20px;" class="col-md-12 col-sm-12 col-12">
+                                    <strike style="color: #ccc;"><h1 >96,000₫</h1></strike>
+                                    <h1 class="price_tomiot">69,000₫</h1> 
                                 </div>
-                                <div class="ProductPrice">
-                                    <div class="retail-price disable">
-                                        <span class="price-label"></span><span class="price"><strike class="RetailPriceValue">
-                                            </strike>
-                                        </span>
+                                <div style="padding-left: 20px;" class="padding10_tomiot col-md-12 col-sm-12 col-12" style="width: 100%;">
+                                    <label class="SoLuongLabel_tomiot " for="SoLuong"><strong>Số lượng:</strong></label>
+
+                                    <input type="number" id="SoLuong_tomiot" min="1" maxlength="10" max="10000" value="1" name="" class="quantity-selector ">
+                                </div>  
+                                <div style="padding-left: 20px;" class="padding10_tomiot col-md-12 col-12 col-sm-12">
+                                    <button onclick="launch_toast()"  class="btn btn-info"><i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng</button>
+                                </div>
+                                <!-- Toast -->
+                                <div id="toast">
+                                    <div id="img">
+                                        <i class="fas fa-cart-arrow-down"></i>
                                     </div>
-                                    <div class="special-price">
-                                        <span class="price-label"></span><span class="price"><em>
-                                                580,000₫</em>
-                                        </span>
-                                    </div>
+                                    <div id="desc">Đã thêm vào giỏ hàng</div>
                                 </div>
-                                <div class='ProductActionAdd'><a href='javascript:;' class="add2cart" data-variantid="1009576659"><span>Mua hàng</span></a></div>
-                                <hr align="center" >
+                                <!-- Ket thuc Toast -->
+                            </div>
+                        </div>
+                        <!-- Ket Thuc hien thi gia ban -->
+
+                        <!-- Phan Tab mo ta + Huong dan su dung cua san pham -->
+                        <div class="col-md-12 mota_hdsd_tomiot">
+                            <ul class="no_margin_tomiot nav nav-pills mb-3 " style="margin-bottom: 0rem!important;" id="pills-tab" role="tablist">
+                              <li class="nav-item border_tomiot">
+                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Mô tả</a>
+                              </li>
+                              <li class="nav-item border_tomiot">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Hướng dẫn sử dụng</a>
+                              </li>
+                              
+                            </ul>
+                            <div class="tab-content border_tomiot padding_10px_tomiot" id="pills-tabContent">
+                              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                                <p>Màn hình 7 inch cảm ứng điện dung cho máy tính Nano Pi được sản xuất để có thể giúp Nano Pi trở thành 1 chiếc máy tính bảng thực thụ, chỉ cần kết nối Nano Pi với màn hình qua Socket dành riêng cho màn hình trên Board là bạn đã có thể sử dụng, màn hình tương thích với các board Nano Pi có Socket màn hình 45 chân như: NanoPi 2 fire，M2，M3，nanopc-T2 / T3,...
+
+                                Màn hình 7 inch cảm ứng điện dung cho máy tính Nano Pi có chất lượng hiển thị tốt, cảm ứng điện dung nhạy và thao tác rất dễ dàng, đi kèm với mức giá phải chăng là sự lựa chọn sáng giá cho những dự án cần sự tương tác điều khiển qua màn hình cảm ứng, xây dựng bộ điều khiển trung tâm,....
+                                <br>
+                                <strong>Thông số kỹ thuật:</strong><br>
+                                Màn hình cảm ứng điện dung cho máy tính Nano Pi.<br>
+                                Chuẩn kết nối: Socket Flat Cable 45 pins.<br>
+                                Tương thích: NanoPi 2 fire，M2，M3，nanopc-T2 / T3,...<br>
+                                Model: X710<br>
+                                Kích thước: 7 inch<br>
+                                Độ phân giải: 1024x600 Pixel.<br>
+                                Điểm ảnh: 0.05x0.15mm RGB<br>
+                                Kích thước hiển thị: 153.6x90mm.<br>
+                                Giao tiếp với Board mạch chủ Nano Pi qua Socket màn hình có sẵn.<br>
+                                Công suất đèn nền: 2.75W<br>
+                                Công suất Panel: 1W<br>
+
+                                </p>
+
+                                <img class="hinhAnhSP_tomiot" src="assets/img/chi-tiet-san-pham/hinhanh_sp1.jpg" alt="">
+                                <img class="hinhAnhSP_tomiot" src="assets/img/chi-tiet-san-pham/hinhanh2_sp1.jpg" alt="">
+                                <img class="hinhAnhSP_tomiot" src="assets/img/chi-tiet-san-pham/hinhanh3_sp1.jpg" alt="">
+
+                              </div>
+                              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+                                    <h3>Link hướng dẫn sử dụng</h3>
+                                  <a href="https://www.google.com" target="_blank">tại đây</a>
+                              </div>
+                              
                             </div>
 
-                            <!--end .col-md-3 col-sm-6 col-xs-12-->
-                            <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
-                                <div id="ProductImage" class="ProductImage">
-                                    <a href="/products/mach-nap-debugger-msp430-fet430uif">
-                                        <img alt="Mạch nạp Debugger MSP430 FET430UIF" title="Mạch nạp Debugger MSP430 FET430UIF" src="assets/img/h1.jpg" class="img-fluid" />
-                                    </a>
-                                </div>
-                                <div class="ProductDetails">
-                                    <strong><a href='/products/mach-nap-debugger-msp430-fet430uif'>
+                            
+
+                        </div>
+
+                        <!-- Ket thuc tab mo ta + huong dan su dung tab san pham -->
+                        <!-- Comment facebook -->
+                        <div class="col-md-12 sp_lien_quan_tomiot">
+                            <div class="defaultTitle TitleContent">
+                                        <a href="/collections/san-pham-moi-nhat-new-arrival-products"><span>Bình luận của sản phẩm:</span></a>
+                                    </div>
+
+                            <div class="border_tomiot padding10_tomiot">
+                                comment facebook hiển thị ở đây
+                            </div>
+                        </div>
+
+                        <!-- Ket thuc comment fb -->
+                        <!-- Phan san pham cung category -->
+                        
+                        <div class="col-md-12 col-sm-12 col-lg-12 sp_lien_quan_tomiot">
+                            <div class="defaultTitle TitleContent">
+                                        <a href="/collections/san-pham-moi-nhat-new-arrival-products"><span>Sản phẩm liên quan</span></a>
+                                    </div>
+                            <div class=" padding10_tomiotborder_tomiot ">
+                                <div class="content_splienquan_tomiot col-md-12">
+                                    <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
+                                            <div id="ProductImage" class="ProductImage">
+                                                <a href="/products/mach-nap-debugger-msp430-fet430uif">
+                                                    <img alt="Mạch nạp Debugger MSP430 FET430UIF" title="Mạch nạp Debugger MSP430 FET430UIF" src="assets/img/h1.jpg" class="img-fluid" />
+                                                </a>
+                                            </div>
+                                            <div class="ProductDetails thugontext_tomiot">
+                                                <strong><a href='/products/mach-nap-debugger-msp430-fet430uif'>
+                                                Mạch nạp Debugger MSP430 FET430UIF</a></strong>
+                                            </div>
+                                            <div class="ProductPrice">
+                                                <div class="retail-price disable">
+                                                    <span class="price-label"></span><span class="price"><strike class="RetailPriceValue">
+                                                    </strike>
+                                                    </span>
+                                                </div>
+                                                <div class="special-price">
+                                                    <span class="price-label"></span><span class="price"><em>
+                                                    780,000₫</em>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class='ProductActionAdd'><a href='javascript:;' class="add2cart" data-variantid="1012659697"><span onclick="launch_toast()">Mua hàng</span></a></div>
+                                    </div>
+                                    <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
+                                        <div id="ProductImage" class="ProductImage">
+                                            <a href="/products/mach-nap-debugger-msp430-fet430uif">
+                                                <img alt="Mạch nạp Debugger MSP430 FET430UIF" title="Mạch nạp Debugger MSP430 FET430UIF" src="assets/img/h1.jpg" class="img-fluid" />
+                                            </a>
+                                        </div>
+                                        <div class="ProductDetails thugontext_tomiot">
+                                            <strong><a href='/products/mach-nap-debugger-msp430-fet430uif'>
                                             Mạch nạp Debugger MSP430 FET430UIF</a></strong>
-                                </div>
-                                <div class="ProductPrice">
-                                    <div class="retail-price disable">
-                                        <span class="price-label"></span><span class="price"><strike class="RetailPriceValue">
-                                            </strike>
-                                        </span>
-                                    </div>
-                                    <div class="special-price">
-                                        <span class="price-label"></span><span class="price"><em>
+                                        </div>
+                                        <div class="ProductPrice">
+                                            <div class="retail-price disable">
+                                                <span class="price-label"></span><span class="price"><strike class="RetailPriceValue">
+                                                </strike>
+                                                </span>
+                                            </div>
+                                            <div class="special-price">
+                                                <span class="price-label"></span><span class="price"><em>
                                                 780,000₫</em>
-                                        </span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class='ProductActionAdd'><a href='javascript:;' class="add2cart" data-variantid="1012659697"><span onclick="launch_toast()">Mua hàng</span></a></div>
                                     </div>
-                                </div>
-                                <div class='ProductActionAdd'><a href='javascript:;' class="add2cart" data-variantid="1012659697"><span>Mua hàng</span></a></div>
-                                <hr align="center" >
-                            </div>
-                            <!--end .col-md-3 col-sm-6 col-xs-12-->
-                            <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
-                                <div id="ProductImage" class="ProductImage">
-                                    <a href="/products/mach-nap-armjlink-v8">
-                                        <img alt="Mạch nạp Programmer Debugger ARM Jlink V8" title="Mạch nạp Programmer Debugger ARM Jlink V8" src="assets/img/h2.jpg" class="img-fluid" />
-                                    </a>
-                                </div>
-                                <div class="ProductDetails">
-                                    <strong><a href='/products/mach-nap-armjlink-v8'>
-                                            Mạch nạp Programmer Debugger ARM Jlink V8</a></strong>
-                                </div>
-                                <div class="ProductPrice">
-                                    <div class="retail-price disable">
-                                        <span class="price-label"></span><span class="price"><strike class="RetailPriceValue">
-                                            </strike>
-                                        </span>
+                                    <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
+                                        <div id="ProductImage" class="ProductImage">
+                                            <a href="/products/mach-nap-debugger-msp430-fet430uif">
+                                                <img alt="Mạch nạp Debugger MSP430 FET430UIF" title="Mạch nạp Debugger MSP430 FET430UIF" src="assets/img/h1.jpg" class="img-fluid" />
+                                            </a>
+                                        </div>
+                                        <div class="ProductDetails thugontext_tomiot">
+                                            <strong><a href='/products/mach-nap-debugger-msp430-fet430uif'>
+                                            Mạch nạp Debugger MSP430 FET430UIF</a></strong>
+                                        </div>
+                                        <div class="ProductPrice">
+                                            <div class="retail-price disable">
+                                                <span class="price-label"></span><span class="price"><strike class="RetailPriceValue">
+                                                </strike>
+                                                </span>
+                                            </div>
+                                            <div class="special-price">
+                                                <span class="price-label"></span><span class="price"><em>
+                                                780,000₫</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class='ProductActionAdd'><a href='javascript:;' class="add2cart" data-variantid="1012659697"><span onclick="launch_toast()">Mua hàng</span></a></div>
                                     </div>
-                                    <div class="special-price">
-                                        <span class="price-label"></span><span class="price"><em>
-                                                295,000₫</em>
-                                        </span>
+                                    <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
+                                        <div id="ProductImage" class="ProductImage">
+                                            <a href="/products/mach-nap-debugger-msp430-fet430uif">
+                                                <img alt="Mạch nạp Debugger MSP430 FET430UIF" title="Mạch nạp Debugger MSP430 FET430UIF" src="assets/img/h1.jpg" class="img-fluid" />
+                                            </a>
+                                        </div>
+                                        <div class="ProductDetails thugontext_tomiot">
+                                            <strong><a href='/products/mach-nap-debugger-msp430-fet430uif'>
+                                            Mạch nạp Debugger MSP430 FET430UIF</a></strong>
+                                        </div>
+                                        <div class="ProductPrice">
+                                            <div class="retail-price disable">
+                                                <span class="price-label"></span><span class="price"><strike class="RetailPriceValue">
+                                                </strike>
+                                                </span>
+                                            </div>
+                                            <div class="special-price">
+                                                <span class="price-label"></span><span class="price"><em>
+                                                780,000₫</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class='ProductActionAdd'><a href='javascript:;' class="add2cart" data-variantid="1012659697"><span onclick="launch_toast()">Mua hàng</span></a></div>
                                     </div>
-                                </div>
-                                <div class='ProductActionAdd'><a href='javascript:;' class="add2cart" data-variantid="1005419995"><span>Mua hàng</span></a></div>
-                                <hr align="center" >
-                            </div>
-                            <!--end .col-md-3 col-sm-6 col-xs-12-->
-                            <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
-                                <div id="ProductImage" class="ProductImage">
-                                    <a href="/products/mach-nap-ulink-2">
-                                        <img alt="Mạch nạp Programmer Debugger ARM Ulink 2" title="Mạch nạp Programmer Debugger ARM Ulink 2" src="assets/img/h3.jpg" class="img-fluid" />
-                                    </a>
-                                </div>
-                                <div class="ProductDetails">
-                                    <strong><a href='/products/mach-nap-ulink-2'>
-                                            Mạch nạp Programmer Debugger ARM Ulink 2</a></strong>
-                                </div>
-                                <div class="ProductPrice">
-                                    <div class="retail-price disable">
-                                        <span class="price-label"></span><span class="price"><strike class="RetailPriceValue">
-                                            </strike>
-                                        </span>
-                                    </div>
-                                    <div class="special-price">
-                                        <span class="price-label"></span><span class="price"><em>
-                                                403,000₫</em>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class='ProductActionAdd'><a href='javascript:;' class="add2cart" data-variantid="1005420003"><span>Mua hàng</span></a></div>
-                                <hr align="center" >
-                            </div>
-                            <!--end .col-md-3 col-sm-6 col-xs-12-->
-                            <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
-                                <div id="ProductImage" class="ProductImage">
-                                    <a href="/products/mach-nap-cc-debugger">
-                                        <img alt="Mạch nạp TI CC Debugger" title="Mạch nạp TI CC Debugger" src="assets/img/h4.jpg" class="img-fluid" />
-                                    </a>
-                                </div>
-                                <div class="ProductDetails">
-                                    <strong><a href='/products/mach-nap-cc-debugger'>
-                                            Mạch nạp TI CC Debugger</a></strong>
-                                </div>
-                                <div class="ProductPrice">
-                                    <div class="retail-price disable">
-                                        <span class="price-label"></span><span class="price"><strike class="RetailPriceValue">
-                                            </strike>
-                                        </span>
-                                    </div>
-                                    <div class="special-price">
-                                        <span class="price-label"></span><span class="price"><em>
-                                                350,000₫</em>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class='ProductActionAdd'><a href='javascript:;' class="add2cart" data-variantid="1005419997"><span>Mua hàng</span></a></div>
-                                <hr align="center" >
-                            </div>
-                            <!--end .col-md-3 col-sm-6 col-xs-12-->
-                            <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
-                                <div id="ProductImage" class="ProductImage">
-                                    <a href="/products/mach-nap-smartrf04eb">
-                                        <img alt="Mạch nạp TI SmartRF04EB" title="Mạch nạp TI SmartRF04EB" src="assets/img/h5.jpg" class="img-fluid" />
-                                    </a>
-                                </div>
-                                <div class="ProductDetails">
-                                    <strong><a href='/products/mach-nap-smartrf04eb'>
-                                            Mạch nạp TI SmartRF04EB</a></strong>
-                                </div>
-                                <div class="ProductPrice">
-                                    <div class="retail-price disable">
-                                        <span class="price-label"></span><span class="price"><strike class="RetailPriceValue">
-                                            </strike>
-                                        </span>
-                                    </div>
-                                    <div class="special-price">
-                                        <span class="price-label"></span><span class="price"><em>
-                                                190,000₫</em>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class='ProductActionAdd'><a href='javascript:;' class="add2cart" data-variantid="1005420001"><span>Mua hàng</span></a></div>
-                                <hr align="center" >
-                            </div>
-                            <!--end .col-md-3 col-sm-6 col-xs-12-->
-                            <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
-                                <div id="ProductImage" class="ProductImage">
-                                    <a href="/products/mach-thu-phat-rf-bluetooth-4-0cc2540usb-dongle">
-                                        <img alt="Mạch thu phát RF Bluetooth 4.0 CC2540 USB Dongle" title="Mạch thu phát RF Bluetooth 4.0 CC2540 USB Dongle" src="assets/img/h6.jpg" class="img-fluid" />
-                                    </a>
-                                </div>
-                                <div class="ProductDetails">
-                                    <strong><a href='/products/mach-thu-phat-rf-bluetooth-4-0cc2540usb-dongle'>
-                                            Mạch thu phát RF Bluetooth 4.0 CC2540 USB Dongle</a></strong>
-                                </div>
-                                <div class="ProductPrice">
-                                    <div class="retail-price disable">
-                                        <span class="price-label"></span><span class="price"><strike class="RetailPriceValue">
-                                            </strike>
-                                        </span>
-                                    </div>
-                                    <div class="special-price">
-                                        <span class="price-label"></span><span class="price"><em>
-                                                350,000₫</em>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class='ProductActionAdd'><a href='javascript:;' class="add2cart" data-variantid="1005420054"><span>Mua hàng</span></a></div>
-                                <hr align="center" >
-                            </div>
-                            <!--end .col-md-3 col-sm-6 col-xs-12-->
-                            <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
-                                <div id="ProductImage" class="ProductImage">
-                                    <a href="/products/mach-thu-phat-wifi-soc-cc3200">
-                                        <img alt="Mạch thu phát Wifi SoC CC3200" title="Mạch thu phát Wifi SoC CC3200" src="assets/img/h8.jpg" class="img-fluid" />
-                                    </a>
-                                </div>
-                                <div class="ProductDetails">
-                                    <strong><a href='/products/mach-thu-phat-wifi-soc-cc3200'>
-                                            Mạch thu phát Wifi SoC CC3200</a></strong>
-                                </div>
-                                <div class="ProductPrice">
-                                    <div class="retail-price disable">
-                                        <span class="price-label"></span><span class="price"><strike class="RetailPriceValue">
-                                            </strike>
-                                        </span>
-                                    </div>
-                                    <div class="special-price">
-                                        <span class="price-label"></span><span class="price"><em>
-                                                295,000₫</em>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class='ProductActionAdd'><a href='javascript:;' class="add2cart" data-variantid="1024851899"><span>Mua hàng</span></a></div>
-                                <hr align="center" >
-                            </div>
-                            <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
-                               
-                            </div>
-                         <!--end .col-md-3 col-sm-6 col-xs-12-->                                                           
-                            <div class="main-pagination">
-                                <div class="text-center">
+
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Ket thuc Phan san pham cung category -->
+
+                        <!--  ----------  San pham cua hang khuyen nghi ------------->
+                        <div class="col-md-12 col-sm-12 col-lg-12 sp_lien_quan_tomiot">
+                            <div class="defaultTitle TitleContent">
+                                        <a href="/collections/san-pham-moi-nhat-new-arrival-products"><span>Có thể bạn muốn xem</span></a>
+                                    </div>
+
+                            <div class="padding10_tomiot">
+                                
+                                <div class="content_splienquan_tomiot col-md-12 ">
+                                
+                                    <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
+                                        <div id="ProductImage" class="ProductImage">
+                                            <a href="/products/mach-nap-debugger-msp430-fet430uif">
+                                                <img alt="Mạch nạp Debugger MSP430 FET430UIF" title="Mạch nạp Debugger MSP430 FET430UIF" src="assets/img/h1.jpg" class="img-fluid" />
+                                            </a>
+                                        </div>
+                                        <div class="ProductDetails thugontext_tomiot">
+                                            <strong><a href='/products/mach-nap-debugger-msp430-fet430uif'>
+                                            Mạch nạp Debugger MSP430 FET430UIF</a></strong>
+                                        </div>
+                                        <div class="ProductPrice">
+                                            <div class="retail-price disable">
+                                                <span class="price-label"></span><span class="price"><strike class="RetailPriceValue">
+                                                </strike>
+                                                </span>
+                                            </div>
+                                            <div class="special-price">
+                                                <span class="price-label"></span><span class="price"><em>
+                                                780,000₫</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class='ProductActionAdd'><a href='javascript:;' class="add2cart" data-variantid="1012659697"><span onclick="launch_toast()">Mua hàng</span></a></div>
+                                    </div>
+                                    <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
+                                        <div id="ProductImage" class="ProductImage">
+                                            <a href="/products/mach-nap-debugger-msp430-fet430uif">
+                                                <img alt="Mạch nạp Debugger MSP430 FET430UIF" title="Mạch nạp Debugger MSP430 FET430UIF" src="assets/img/h1.jpg" class="img-fluid" />
+                                            </a>
+                                        </div>
+                                        <div class="ProductDetails thugontext_tomiot">
+                                            <strong><a href='/products/mach-nap-debugger-msp430-fet430uif'>
+                                            Mạch nạp Debugger MSP430 FET430UIF</a></strong>
+                                        </div>
+                                        <div class="ProductPrice">
+                                            <div class="retail-price disable">
+                                                <span class="price-label"></span><span class="price"><strike class="RetailPriceValue">
+                                                </strike>
+                                                </span>
+                                            </div>
+                                            <div class="special-price">
+                                                <span class="price-label"></span><span class="price"><em>
+                                                780,000₫</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class='ProductActionAdd'><a href='javascript:;' class="add2cart" data-variantid="1012659697"><span onclick="launch_toast()">Mua hàng</span></a></div>
+                                    </div>
+                                    <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
+                                        <div id="ProductImage" class="ProductImage">
+                                            <a href="/products/mach-nap-debugger-msp430-fet430uif">
+                                                <img alt="Mạch nạp Debugger MSP430 FET430UIF" title="Mạch nạp Debugger MSP430 FET430UIF" src="assets/img/h1.jpg" class="img-fluid" />
+                                            </a>
+                                        </div>
+                                        <div class="ProductDetails thugontext_tomiot">
+                                            <strong><a href='/products/mach-nap-debugger-msp430-fet430uif'>
+                                            Mạch nạp Debugger MSP430 FET430UIF</a></strong>
+                                        </div>
+                                        <div class="ProductPrice">
+                                            <div class="retail-price disable">
+                                                <span class="price-label"></span><span class="price"><strike class="RetailPriceValue">
+                                                </strike>
+                                                </span>
+                                            </div>
+                                            <div class="special-price">
+                                                <span class="price-label"></span><span class="price"><em>
+                                                780,000₫</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class='ProductActionAdd'><a href='javascript:;' class="add2cart" data-variantid="1012659697"><span>Mua hàng</span></a></div>
+                                    </div>
+                                    <div class="box-product-first col-md-3 col-sm-6 col-xs-6">
+                                        <div id="ProductImage" class="ProductImage">
+                                            <a href="/products/mach-nap-debugger-msp430-fet430uif">
+                                                <img alt="Mạch nạp Debugger MSP430 FET430UIF" title="Mạch nạp Debugger MSP430 FET430UIF" src="assets/img/h1.jpg" class="img-fluid" />
+                                            </a>
+                                        </div>
+                                        <div class="ProductDetails thugontext_tomiot">
+                                            <strong><a href='/products/mach-nap-debugger-msp430-fet430uif'>
+                                            Mạch nạp Debugger MSP430 FET430UIF</a></strong>
+                                        </div>
+                                        <div class="ProductPrice">
+                                            <div class="retail-price disable">
+                                                <span class="price-label"></span><span class="price"><strike class="RetailPriceValue">
+                                                </strike>
+                                                </span>
+                                            </div>
+                                            <div class="special-price">
+                                                <span class="price-label"></span><span class="price"><em>
+                                                780,000₫</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class='ProductActionAdd'><a href='javascript:;' class="add2cart" data-variantid="1012659697"><span>Mua hàng</span></a></div>
+                                    </div>
+                                        
+                                    <!-- ket thuc cards sp lien quan -->
+
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <!-- Ket thuc san pham cua hang khuyen nghi -->
                     </div>
                 </section>                          
             </div>
@@ -952,20 +1062,13 @@
             </div>
         </div>
     </section>
-    <!-- Toast -->
-    <div id="toast">
-        <div id="img">
-            <i class="fas fa-cart-arrow-down"></i>
-        </div>
-        <div id="desc">Đã thêm vào giỏ hàng</div>
-    </div>
-    <!-- Ket thuc Toast -->
+    
     <script src="assets/libraries/jquery.min.js"></script>
     <script src="assets/libraries/popper.min.js"></script>
     <script src="assets/libraries/bootstrap.min.js"></script>
     <script src="assets/base/style.bundle.js"></script>
-    <script src="assets/myJS.js"></script>
 
+    <script src="assets/myJS.js"></script>
 </body>
 
 </html>
