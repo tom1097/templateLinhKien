@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	$('a.click-sub-menu-left').click(function(){
+		$(this).children('.icon-right').toggleClass("toggle-down");
 		$(this).next('ul.sub-menu-left').slideToggle();
 	});
 

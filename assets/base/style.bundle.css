@@ -4301,3 +4301,8 @@ ul.navbar-nav{
 .toggle-down{
     transform: rotate(90deg);
 }
+
+.icon-right{
+    transition: transform 0.5s;
+}
+
