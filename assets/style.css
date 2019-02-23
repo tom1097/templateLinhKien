@@ -6,12 +6,20 @@
 	color: red;
 }
 
+.background_img_tomiot{
+    background-image:url("img/boder-sp.jpg");
+    background-repeat:no-repeat;
+    background-position:right;
+}
+
+
 #SoLuong_tomiot{
 	width: 60px;
     text-align: center;
     border-radius: 5px;
     float: left;
 }
+
 
 .SoLuongLabel_tomiot{
 	display: inline-block;
@@ -70,21 +78,33 @@
     text-overflow: ellipsis;
     white-space: normal;
 }
+.thugontext_tuyendung_tomiot{
+    white-space: nowrap;
+    width: 100%;
+    height: 36px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
 
 .no_border_tomiot{
 	border: 0;
 
 }
-
+.paddingleft10_tomiot{
+    padding-left: 10px;
+}
 .noidung_tomiot{
 	
 }
 
 .tindang_tomiot{
-	padding-top: 10px;
+	padding: 10px 0;
+    border-bottom: 1px #ccc solid;
 }
 
-
+.header_content_tomiot{
+    padding-bottom: 20px;
+}
 /*end css tomiot css en*/
 
 .hinhanhwidth100_tomiot{
@@ -113,6 +133,10 @@
   border: 2px solid #ccc;
 }
 
+#footer{
+ padding-top: 20px;
+}
+
 .box_tomiot h5:hover{
 	text-transform: lowercase;
   	color:blue;
@@ -125,8 +149,13 @@
 
 
 .mota_hdsd_tomiot{
-	margin: 10px 0; 
+	margin: 20px 0; 
 	
+}
+.sales_tomiot{
+    color: gray;
+    margin:0;
+    padding:0;
 }
 .border_tomiot{
 	border: 1px #cccccc61 solid;
@@ -387,15 +416,15 @@ body {
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
-    font-weight: 300;
+    /*font-weight: 300;*/
     line-height: 1.7em;
-    color: #999;
+    /*color: #999;*/
 }
 
 a,
 a:hover,
 a:focus {
-    color: inherit;
+    /*color: inherit;*/
     text-decoration: none;
     transition: all 0.3s;
 }
