@@ -3061,6 +3061,10 @@ a.compare
     #Container,#FooterContainer{
         width: 1120px !important;
     }
+
+    .card-a-menu{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 990px){
@@ -4268,4 +4272,8 @@ img{
 
 .right{
     float: right;
+}
+
+ul.navbar-nav{
+    margin-left: 0px
 }
