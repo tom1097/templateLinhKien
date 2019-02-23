@@ -4289,3 +4289,15 @@ ul.navbar-nav{
 .menu-dropdown_h{
     display: none;
 }
+
+.click-menu-dropdown_h i{
+    margin-right: 20px;
+    float: right;
+    color: #efece8;
+    padding: 3px;
+    transition: transform 0.5s;
+}
+
+.toggle-down{
+    transform: rotate(90deg);
+}

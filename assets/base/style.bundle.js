@@ -8,6 +8,8 @@ $(document).ready(function(){
 	});
 
 	$('.click-menu-dropdown_h').click(function(){
+		$(this).children('.click-menu-dropdown_h i').toggleClass("toggle-down");
+			
 		$(this).next('.menu-dropdown_h').slideToggle();
 	});
 });
