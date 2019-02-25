@@ -87,7 +87,7 @@
 .thugontext_tuyendung_tomiot{
     white-space: nowrap;
     width: 100%;
-    height: 36px;
+    height: 24px;
     text-overflow: ellipsis;
     overflow: hidden;
 }
@@ -109,6 +109,11 @@
     border-bottom: 1px #ccc solid;
 }
 
+.border_tindang_bottom_tomiot{
+    border-bottom: 1px #ccc solid;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
 .header_content_tomiot{
     padding-bottom: 20px;
 }
